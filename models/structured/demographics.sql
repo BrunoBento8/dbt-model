@@ -2,7 +2,7 @@
     alias = 'demographics',
     database = 'AIRBYTE_DATABASE',
     schema = 'strutured',
-    materialized = 'table',
+    materialized = 'view',
     tags = ["strutured", "demographics"]
 ) }}
 
