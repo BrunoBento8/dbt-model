@@ -11,28 +11,28 @@ with epidemiology as (
 
     select
     *
-    from {{ ref('base_epidemiology')}}
+    from {{ ref('epidemiology')}}
 
 ),
 demographics as (
 
     select
     *
-    from {{ ref('base_demographics')}}
+    from {{ ref('demographics')}}
 
 ),
 economy as (
 
     select
         *
-    from {{ ref('base_economy')}}
+    from {{ ref('economy')}}
 
     ),
 index as (
 
     select
         *
-    from {{ ref('base_index')}}
+    from {{ ref('index')}}
 
     ),
 
